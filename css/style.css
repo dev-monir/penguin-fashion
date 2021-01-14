@@ -1,0 +1,75 @@
+:root{
+    --primary:#3E3E3E;
+    --sprimary:#363958;
+    --secondery: #a4bc46;
+    --pure:#fff;
+    --light:#FFFBF0;
+    --fill:#F1F1F1;
+
+}
+.custom-btn{
+    background-color: var(--secondery);
+    padding: 15px 25px;
+    color: var(--pure);
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--light);
+}
+.banner-text h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    font-weight: bold;
+}
+.banner-text p{
+    font-size: 16px;
+    padding: 0;
+    color: var(--primary);
+    line-height: 1rem;
+}
+.custom_nav li{
+    padding: 1.5rem;
+}
+.custom_nav li a{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--primary);
+}
+.main_area{
+    background-color: var(--pure) ;
+}
+.wi-card{
+    border: none;
+}
+.wi-card-img-area{
+    width: 100%;
+   height: 327px;
+   background-color: var(--fill);
+   border-radius: 10px;
+   margin: auto;
+}
+.wi-card-body{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+.wi-card-footer{
+    border-top: none;
+    background-color: var(--pure);
+    padding-left: 0;
+    padding-right: 0;
+}
+.custom-card-head{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--sprimary);
+}
+.custom-card-text{
+    font-size: 16px;
+    color: var(--primary);
+}
