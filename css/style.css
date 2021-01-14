@@ -81,6 +81,10 @@ body{
     font-size: 48px;
     font-weight: bold;
 }
+.border-hide{
+    border: none !important;
+    border-radius: 20px;
+}
 /* carusal */
 .col-md-3{
     display: inline-block;
