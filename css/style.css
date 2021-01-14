@@ -6,6 +6,7 @@
     --light:#FFFBF0;
     --fill:#F1F1F1;
 
+
 }
 .custom-btn{
     background-color: var(--secondery);
@@ -44,6 +45,7 @@ body{
 }
 .wi-card{
     border: none;
+    padding:10px;
 }
 .wi-card-img-area{
     width: 100%;
@@ -73,3 +75,26 @@ body{
     font-size: 16px;
     color: var(--primary);
 }
+.w-head{
+    font-family: 'Bebas Neue', cursive;
+    color: var(--sprimary);
+    font-size: 48px;
+    font-weight: bold;
+}
+/* carusal */
+.col-md-3{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  .col-md-3 img{
+    width:100%;
+    height:auto;
+  }
+  .carousel-indicators li{
+    background-color:red;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon{
+    background-color:red;
+  }
+  
